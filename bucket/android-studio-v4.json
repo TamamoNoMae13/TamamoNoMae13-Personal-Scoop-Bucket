@@ -2,7 +2,16 @@
 	"version": "4.2.2.0",
 	"description": "The official IDE for Android development, which includes everything you need to build Android apps.",
 	"homepage": "https://developer.android.com/studio/",
-	"license": {},
+	"license": {
+		"identifier": "Freeware",
+		"url": "https://developer.android.com/studio/terms.html"
+	},
+	"suggest": {
+		"SDK": [
+			"android-clt",
+			"android-sdk"
+		]
+	},
 	"architecture": {
 		"64bit": {
 			"url": "https://dl.google.com/dl/android/studio/ide-zips/4.2.2.0/android-studio-ide-202.7486908-windows.zip",
@@ -10,7 +19,7 @@
 			"shortcuts": [
 				[
 					"bin\\studio64.exe",
-					"Android Studio"
+					"Android Studio v4"
 				]
 			]
 		}
